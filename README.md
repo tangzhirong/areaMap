@@ -6,7 +6,7 @@
 
 ## 使用方法
 ### html：
-～～～
+～～～html
 link rel="stylesheet" type="text/css" href="/stylesheets/areaMap.css">
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=iyPuuhgLuXn9kgnqiyC32m6Z"></script>
 <!--百度地图容器-->
@@ -14,7 +14,7 @@ link rel="stylesheet" type="text/css" href="/stylesheets/areaMap.css">
 
 ～～～
 ### script：
-～～～
+～～～javascript
  //调用areaMap jQuery组件，实例化JS对象
  var areaMap =  $("#dituContent").areaMap({
                 level:'province'   //地图级别为北京市
