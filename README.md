@@ -6,15 +6,15 @@
 
 ## 使用方法
 ### html：
-～～～html
+```html
 link rel="stylesheet" type="text/css" href="/stylesheets/areaMap.css">
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=iyPuuhgLuXn9kgnqiyC32m6Z"></script>
 <!--百度地图容器-->
   <div class="areaMap" style="border:#ccc solid 1px;" id="dituContent"></div>
 
-～～～
+```
 ### script：
-～～～javascript
+```javascript
  //调用areaMap jQuery组件，实例化JS对象
  var areaMap =  $("#dituContent").areaMap({
                 level:'province'   //地图级别为北京市
@@ -24,4 +24,4 @@ link rel="stylesheet" type="text/css" href="/stylesheets/areaMap.css">
  //调用生成热力图的方法
  var overlay = areaMap.heatmap();
 
-～～～
+```
